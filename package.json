@@ -10,6 +10,8 @@
   },
   "scripts": {
     "start": "docpad run",
-    "test": "docpad generate"
+    "test": "docpad generate",
+    "build:epub": "node scripts/build-epub.js",
+    "update:epub": "node scripts/update-epub-metadata.js"
   }
 }
